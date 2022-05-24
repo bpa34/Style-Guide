@@ -1,0 +1,38 @@
+* {
+        margin: 0;
+        padding: 0;
+        font-family: 'Rubik', 'Nunito Sans', 'Manrope';
+        font-size: 16px;
+}
+
+main {
+    margin: 0 10%;
+}
+
+h1 {
+    font-size: 32px;
+}
+
+
+
+.container {
+    display: block;
+    border: 2px solid gray;
+    width: 1500px;
+    margin-bottom: .5rem;
+}
+
+.color-container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.font-container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.style-container {
+    display: flex;
+    flex-wrap: wrap;
+}
