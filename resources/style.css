@@ -28,6 +28,10 @@ h2 {
 
 .color-container {
     width: 100%;
+    display: flex;
+    flex-direction: row;
+    margin: auto;
+    justify-content: center;
 }
 
 .color-box {
@@ -41,6 +45,7 @@ h2 {
 #color1 {
     background-color: #052010;
     color: white;
+    
 }
 
 #color2 {
@@ -55,16 +60,61 @@ h2 {
 
 #color4 {
     background-color: #b6c3c7;
-    color: white;
+    color: black;
 }
 
 #color5 {
     background-color: #D3Dfe1;
-    color: white;
+    color: black;
 }
 
 
 .font-box {
     display: inline-block;
     width: 45%;
+    padding: 1rem 1rem 0px 0px
+}
+
+.font-box h3 {
+    padding-bottom: 1rem;
+}
+
+.font-box p {
+    padding-bottom: 1rem;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.italic {
+    font-style: italic;
+}
+
+#rubik h3,
+#rubik p {
+    font-family: 'Rubik' !important;
+}
+
+#Nunito-Sans h3,
+#Nunito-Sans p {
+    font-family: 'Nunito Sans';
+}
+
+#Manrope h3,
+#Manrope p {
+    font-family: 'Manrope';
+}
+
+
+.styles-box {
+    padding: 1.5rem 1.5rem 0px 0px;
+}
+
+.styles-box ul {
+    padding: 1rem 0px 0rem 2rem;
+}
+
+.styles-box li {
+    padding: .2rem;
 }

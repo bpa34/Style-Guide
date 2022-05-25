@@ -12,9 +12,9 @@
 
 <main>
     <h1>My Website Style Guide</h1>
-<section class="container">
+<div class="container">
     <h2>Colors</h2>
-        <div id="color-container">
+        <div class="color-container">
             <div class="color-box" id="color1">
                 <p>Color #1</p>
                 <p>#052010</p>
@@ -36,60 +36,62 @@
                 <p>D3DFE1</p>
             </div>
         </div>
-</section>
-<section class="container">
+    </div>
+</div>
+
+<div class="container">
     <h2>Fonts</h2>
         <div class="font-container">
             <div class="font-box" id="Rubik">
                 <h3>Rubik</h3>
                 <p>The quick brown fox jumps over the lazy dog.</p>
-                <p>The quick brown fox jumps over the lazy dog.</p>
-                <p>The quick brown fox jumps over the lazy dog.</p>
+                <p class="bold">The quick brown fox jumps over the lazy dog.</p>
+                <p class="italic">The quick brown fox jumps over the lazy dog.</p>
             </div>
-            <div class="font-box" id="Nunito Sans">
+            <div class="font-box" id="Nunito-Sans">
                 <h3>Nunito Sans</h3>
                 <p>The quick brown fox jumps over the lazy dog.</p>
-                <p>The quick brown fox jumps over the lazy dog.</p>
-                <p>The quick brown fox jumps over the lazy dog.</p>
+                <p class="bold">The quick brown fox jumps over the lazy dog.</p>
+                <p class="italic">The quick brown fox jumps over the lazy dog.</p>
             </div>
             <div class="font-box" id="Manrope">
                 <h3>Manrope</h3>
                 <p>The quick brown fox jumps over the lazy dog.</p>
-                <p>The quick brown fox jumps over the lazy dog.</p>
-                <p>The quick brown fox jumps over the lazy dog.</p>
+                <p class="bold">The quick brown fox jumps over the lazy dog.</p>
+                <p class="italic">The quick brown fox jumps over the lazy dog.</p>
             </div>
         </div>
-</section>
+</div>
 
-<section class="container">
-    <h2>Font Styles</h2>
-        <div class="style-container">
-            <div class="styles-box" id="h1">
-                <h1>H1: Main page heading</h1>
-                <ul>
-                    <li>Font-weight: 700 (bold)</li>
-                    <li>Font-size: 26px</li>
-                    <li>Font-Family: Nunito Sans</li>
-                </ul>
+    <div class="container">
+        <h2>Font Styles</h2>
+            <div class="style-container">
+                <div class="styles-box" id="h1">
+                    <h1>H1: Main page heading</h1>
+                    <ul>
+                        <li id="h1-font-weight">Font-weight: 700 (bold)</li>
+                        <li id="h1-font-size">Font-size: 26px</li>
+                        <li id="h1-font-family">Font-Family: Nunito Sans</li>
+                    </ul>
+                </div>
+                <div class="styles-box" id="h2 Subheading">
+                    <h2>H2: Subheading</h2>
+                    <ul>
+                        <li id="h2-font-weight">Font-weight: 500</li>
+                        <li id="h2-font-size">Font-size: 18px</li>
+                        <li id="h2-font-family">Font-Family: Rubik</li>
+                    </ul>
+                </div>
+                <div class="styles-box" id="paragraph-text">
+                    <p>P: Paragraph text</p>
+                    <ul>
+                        <li id="p-font-weight">Font-weight: 400 (regular)</li>
+                        <li id="p-font-size">Font-size: 14px</li>
+                        <li id="p-font-family">Font-Family: Manrope</li>
+                    </ul>
+                </div>
             </div>
-            <div class="styles-box" id="h2 Subheading">
-                <h2>H2: Subheading</h2>
-                <ul>
-                    <li>Font-weight: 500</li>
-                    <li>Font-size: 18px</li>
-                    <li>Font-Family: Rubik</li>
-                </ul>
-            </div>
-            <div class="styles-box" id="paragraph-text">
-                <p>P: Paragraph text</p>
-                <ul>
-                    <li>Font-weight: 400 (regular)</li>
-                    <li>Font-size: 14px</li>
-                    <li>Font-Family: Manrope</li>
-                </ul>
-            </div>
-        </div>
-</section>
+    </div>
 
 </main>
 
